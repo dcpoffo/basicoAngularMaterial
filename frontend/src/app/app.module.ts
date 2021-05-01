@@ -25,6 +25,13 @@ import { HeaderComponent } from './components/templante/header/header.component'
 import { FooterComponent } from './components/templante/footer/footer.component';
 import { NavComponent } from './components/templante/nav/nav.component';
 
+//Pessoas
+import { PessoaCrudComponent  } from './views/pessoa-crud/pessoa-crud.component';
+import { PessoaReadComponent  } from './components/pessoa/pessoa-read/pessoa-read.component';
+import { PessoaCreateComponent  } from './components/pessoa/pessoa-create/pessoa-create.component';
+import { PessoaDeleteComponent  } from './components/pessoa/pessoa-delete/pessoa-delete.component';
+import { PessoaUpdateComponent  } from './components/pessoa/pessoa-update/pessoa-update.component';
+
 
 @NgModule({
   declarations: [
@@ -33,6 +40,13 @@ import { NavComponent } from './components/templante/nav/nav.component';
     HeaderComponent,
     FooterComponent,
     NavComponent,
+    PessoaReadComponent,
+
+    PessoaCrudComponent,
+    PessoaCreateComponent,
+    PessoaDeleteComponent,
+    PessoaUpdateComponent,
+
   ],
   imports: [
     BrowserModule,
